@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  pav_tester:
+    build: ./pav-tester
+    container_name: pav_tester
+    environment:
+      - APP_NAME=pav-tester
+      - APP_ENV=development
+      - STAGE=development
+      - VAR_STAGE=developmentLocal
+    env_file:
+      - .aws_creds

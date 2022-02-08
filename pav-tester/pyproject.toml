@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tests"
+version = "0.0.1"
+description = "PAV Python Test application for Flowrite's knowledge share"
+authors = ["Team Flowrite <hello@flowrite.com>"]
+include = ["tests/**/*.json"]
+
+[tool.poetry.dependencies]
+pydantic = "^1.8.2"
+python = "^3.9.9"
+python-dotenv = "^0.19.2"
+boto3 = "^1.20.46"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pylint = "^2.12.2"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+pytest-asyncio = "0.17.2"
+
+[tool.poetry.scripts]
+pav-tester = "tests.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

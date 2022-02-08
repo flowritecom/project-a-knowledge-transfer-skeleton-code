@@ -1,0 +1,5 @@
+# ~/.shellcheckrc
+
+# don't follow source .envrc
+# also fixed with shellcheck +x directive
+disable=SC1091

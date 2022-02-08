@@ -1,0 +1,13 @@
+__pycache__
+*.egg-info/
+build
+.DS_Store
+dump.rdb
+setpath.sh
+dist
+.env
+.envrc
+.venv
+.vscode
+.coverage
+.aws_creds

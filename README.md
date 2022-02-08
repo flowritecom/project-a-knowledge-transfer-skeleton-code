@@ -1,1 +1,1 @@
-# project-a-knowledge-transfer-skeleton-code
+For secret fetching, insert aws api keys to .aws_creds

@@ -1,0 +1,433 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+ 
+
+# Make data base, printed on Tue Feb  8 15:19:53 2022
+
+# Variables
+
+# environment
+define buildPhase
+echo "------------------------------------------------------------" >>$out
+echo " WARNING: the existence of this path is not guaranteed." >>$out
+echo " It is an internal implementation detail for pkgs.mkShell."   >>$out
+echo "------------------------------------------------------------" >>$out
+echo >> $out
+# Record all build inputs as runtime dependencies
+export >> $out
+ 
+
+endef
+# environment
+depsTargetTarget = 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+STRINGS = strings
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+phases = buildPhase
+# environment
+NIX_NO_SELF_RPATH = 1
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+NIX_DONT_SET_RPATH = 1
+# environment
+__impureHostDeps = /bin/sh /usr/lib/libSystem.B.dylib /usr/lib/system/libunc.dylib /dev/zero /dev/random /dev/urandom /bin/sh
+# environment
+IN_NIX_SHELL = impure
+# automatic
+@F = $(notdir $@)
+# environment
+depsHostHostPropagated = 
+# makefile
+SHELL = /bin/sh
+# environment
+NM = nm
+# environment
+nativeBuildInputs = 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+define shellHook
+unset SOURCE_DATE_EPOCH
+
+endef
+# environment
+shell = /nix/store/b0q4wjdw6xwhfsqy8ab106cmhn5xrr8p-bash-5.1-p12/bin/bash
+# environment
+doInstallCheck = 
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+TMP = /tmp
+# environment
+XDG_DATA_DIRS = 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+CC = clang
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/5k/qd0bkcrx7dzb08b_9ry03fdh0000gn/T/vscode-ipc-17507f56-b5ee-43f0-bc3d-7e7bf2a6efbb.sock
+# environment
+VSCODE_CWD = /Users/ks/repos/project-a-knowledge-transfer-skeleton-code
+# environment
+NIX_STORE = /nix/store
+# environment
+PATH = /Users/ks/.poetry/bin:/Users/ks/.nix-profile/bin:/Users/ks/.pyenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion Tech Preview.app/Contents/Public:/opt/X11/bin:/usr/local/opt/liquibase
+# environment
+HOST_PATH = /nix/store/p9xalijqpzpqy5pmqzkmnqbdaidnifwy-nodejs-12.22.9/bin:/nix/store/m7pjiygacd9ybbvvg0s0qpmsagybjl85-yarn-1.22.17/bin:/nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11/bin:/nix/store/3d09hbbc3naq7v2qr897bra944pggakg-leiningen-2.9.7/bin:/nix/store/vg4vm2hvbyk2lyhq9v3gf4ivcc2wr79v-clojure-1.10.3.1058/bin:/nix/store/rrplbvi61lzqmgi4yv3d15jhmpqmc5rl-clojure-lsp-2022.01.22-01.31.09/bin:/nix/store/c84pvn313ap2xaffjf40584vrb6j34nl-jq-1.6-bin/bin:/nix/store/dmsmcq147wg35rn2466lbns6m71v9w0m-openssl-1.1.1m-bin/bin:/nix/store/n5wfzh32h5z8f4cgvzi18bw9z2cx72li-unzip-6.0/bin:/nix/store/8s49kcl9cccjy4vz9yxxa71ayaclmcl9-zip-3.0/bin:/nix/store/96ja0fpj6jhahr7w2jrqmk4ayh89rj2w-direnv-2.30.3/bin:/nix/store/srv3qk2wrq058z2wwvdj02hm5jlvcj40-coreutils-9.0/bin:/nix/store/xfawvqlakizl7wmgqz6dyk7xnjnfia4z-findutils-4.8.0/bin:/nix/store/08a1q0n4n1ly5218zin3iji37wqf5aq4-diffutils-3.8/bin:/nix/store/sr4xm8vdll6pi178fzi18dwz6zhvzimg-gnused-4.8/bin:/nix/store/1lfp83jaz6wsgmckpr79m5wc74hfnbdx-gnugrep-3.7/bin:/nix/store/cmf5if9ir7n6p80x93kcm389fm11b4f3-gawk-5.1.1/bin:/nix/store/aw7rhsmrdcm1340rh09l7w7w2zshsrdb-gnutar-1.34/bin:/nix/store/qhxpnsxkgiy79szjb88r9fmq180silr6-gzip-1.11/bin:/nix/store/szks6nwbb4p9vpw8f5ls857l2nr421m2-bzip2-1.0.6.0.2-bin/bin:/nix/store/askn5hm06xf8b8lmyb5r5v362lv040pk-gnumake-4.3/bin:/nix/store/b0q4wjdw6xwhfsqy8ab106cmhn5xrr8p-bash-5.1-p12/bin:/nix/store/sqdbpskjlnkzidridkgjlqmalibkpnh8-patch-2.7.6/bin:/nix/store/ssm8zqmf2hngam5vc84pvfhpmzw8x17n-xz-5.2.5-bin/bin
+# environment
+LD = ld
+# environment
+__darwinAllowLocalNetworking = 
+# environment
+NIX_CFLAGS_COMPILE =  -frandom-seed=3hy68d0h99 -isystem /nix/store/cklrkxxkz4ina8zhkaqyd6zvmldfwfjl-libcxx-11.1.0-dev/include -isystem /nix/store/w0wl5qhvr4z3xqsiffqs0f2fjg68ccs7-libcxxabi-11.1.0-dev/include -isystem /nix/store/0i30b663xk3gfl7n4ywglgciyss0irdg-compiler-rt-libc-11.1.0-dev/include -isystem /nix/store/p9xalijqpzpqy5pmqzkmnqbdaidnifwy-nodejs-12.22.9/include -isystem /nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11/include -isystem /nix/store/vqbbnznldpgf8xkkiyis8rm5257ks2g7-jq-1.6-dev/include -isystem /nix/store/13y6q4jsjbvhx3p4zm0yprcszvppa1a3-openssl-1.1.1m-dev/include -iframework /nix/store/cz7smiama0px8cx9kvmz3c3rqbpw93cp-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -isystem /nix/store/cklrkxxkz4ina8zhkaqyd6zvmldfwfjl-libcxx-11.1.0-dev/include -isystem /nix/store/w0wl5qhvr4z3xqsiffqs0f2fjg68ccs7-libcxxabi-11.1.0-dev/include -isystem /nix/store/0i30b663xk3gfl7n4ywglgciyss0irdg-compiler-rt-libc-11.1.0-dev/include -isystem /nix/store/p9xalijqpzpqy5pmqzkmnqbdaidnifwy-nodejs-12.22.9/include -isystem /nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11/include -isystem /nix/store/vqbbnznldpgf8xkkiyis8rm5257ks2g7-jq-1.6-dev/include -isystem /nix/store/13y6q4jsjbvhx3p4zm0yprcszvppa1a3-openssl-1.1.1m-dev/include -iframework /nix/store/cz7smiama0px8cx9kvmz3c3rqbpw93cp-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile
+CURDIR := /Users/ks/repos/project-a-knowledge-transfer-skeleton-code
+# environment
+depsHostHost = 
+# environment
+TEMPDIR = /tmp
+# environment
+depsBuildBuildPropagated = 
+# environment
+AR = ar
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+MACOSX_DEPLOYMENT_TARGET = 10.12
+# environment
+PATH_LOCALE = /nix/store/xwdijy03mpy065w5kx4xr6srn79nq0fn-adv_cmds-119-locale/share/locale
+ 
+# environment
+NIX_HARDENING_ENABLE = fortify stackprotector pic strictoverflow format relro bindnow
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.GoelWcKbsE/Listeners
+# environment
+SIZE = size
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.HVUbqHP5xR/org.xquartz:0
+# environment
+NIX_SSL_CERT_FILE = /Users/ks/.nix-profile/etc/ssl/certs/ca-bundle.crt
+# environment
+out = /nix/store/3hy68d0h99qvfwmxcx9fagy154s7lqga-node-env
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+NIX_DONT_SET_RPATH_FOR_BUILD = 1
+# environment
+PWD = /Users/ks/repos/project-a-knowledge-transfer-skeleton-code
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+__propagatedImpureHostDeps = 
+# environment
+MANPATH = /Users/ks/.nix-profile/share/man:/opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /Users/ks
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+depsBuildTarget = 
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/ks/Library/Application Support/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LOGNAME = ks
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+RANLIB = ranlib
+# environment
+NIX_BINTOOLS = /nix/store/9j40qf71q0qiz93mxrg6p01q93q3czfs-cctools-binutils-darwin-wrapper-949.0.1
+# environment
+ZSH = /Users/ks/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+depsBuildBuild = 
+# environment
+patches = 
+# environment
+NIX_BINTOOLS_WRAPPER_TARGET_HOST_x86_64_apple_darwin = 1
+# environment
+__propagatedSandboxProfile = 
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# environment
+NIX_IGNORE_LD_THROUGH_GCC = 1
+# environment
+LC_TERMINAL = iTerm2
+# environment
+SHLVL = 3
+# environment
+NIX_CC = /nix/store/fanf50m95p6848rbiyfvj008czh1iibp-clang-wrapper-11.1.0
+# environment
+NIX_PATH = /Users/ks/.nix-defexpr/channels
+# environment
+NIX_PROFILES = /nix/var/nix/profiles/default /Users/ks/.nix-profile
+# environment
+AS = as
+# environment
+NIX_LDFLAGS =  -L/nix/store/mgb9sdhkh8x9hwdpzfs332slxlhmfkp5-libcxx-11.1.0/lib -L/nix/store/42xjcjnzylrk99ygvbjz7zv8l7fj63kg-libcxxabi-11.1.0/lib -L/nix/store/63lhkx5s1biq726z5r1fhkgsc869a3z4-compiler-rt-libc-11.1.0/lib -L/nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11/lib -L/nix/store/nhqd8f154vc4sj5l30v8529swslx3szp-jq-1.6-lib/lib -L/nix/store/5fwp1lzz2mzav5mrqaf6qmlm4n5ghmk3-openssl-1.1.1m/lib -L/nix/store/mgb9sdhkh8x9hwdpzfs332slxlhmfkp5-libcxx-11.1.0/lib -L/nix/store/42xjcjnzylrk99ygvbjz7zv8l7fj63kg-libcxxabi-11.1.0/lib -L/nix/store/63lhkx5s1biq726z5r1fhkgsc869a3z4-compiler-rt-libc-11.1.0/lib -L/nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11/lib -L/nix/store/nhqd8f154vc4sj5l30v8529swslx3szp-jq-1.6-lib/lib -L/nix/store/5fwp1lzz2mzav5mrqaf6qmlm4n5ghmk3-openssl-1.1.1m/lib
+# environment
+JAVA_HOME = /nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11
+# environment
+NIX_BUILD_CORES = 8
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = ks
+# makefile
+.DEFAULT_GOAL := run
+# environment
+NIX_ENFORCE_NO_NATIVE = 1
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w0t2p0:D272495F-A1FC-4278-B05B-018E290E0B30
+# environment
+NIX_CC_WRAPPER_TARGET_HOST_x86_64_apple_darwin = 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+strictDeps = 
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+__sandboxProfile = 
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/5k/qd0bkcrx7dzb08b_9ry03fdh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+NODE_PATH = /nix/store/p9xalijqpzpqy5pmqzkmnqbdaidnifwy-nodejs-12.22.9/lib/node_modules:/nix/store/m7pjiygacd9ybbvvg0s0qpmsagybjl85-yarn-1.22.17/lib/node_modules
+# environment
+VSCODE_IPC_HOOK = /Users/ks/Library/Application Support/Code/1.63.2-main.sock
+# environment
+buildInputs = /nix/store/p9xalijqpzpqy5pmqzkmnqbdaidnifwy-nodejs-12.22.9 /nix/store/m7pjiygacd9ybbvvg0s0qpmsagybjl85-yarn-1.22.17 /nix/store/a8xjjcgyg6ly9vfmxp9splr6q4v53ck2-zulu11.48.21-ca-jdk-11.0.11 /nix/store/3d09hbbc3naq7v2qr897bra944pggakg-leiningen-2.9.7 /nix/store/vg4vm2hvbyk2lyhq9v3gf4ivcc2wr79v-clojure-1.10.3.1058 /nix/store/rrplbvi61lzqmgi4yv3d15jhmpqmc5rl-clojure-lsp-2022.01.22-01.31.09 /nix/store/vqbbnznldpgf8xkkiyis8rm5257ks2g7-jq-1.6-dev /nix/store/13y6q4jsjbvhx3p4zm0yprcszvppa1a3-openssl-1.1.1m-dev /nix/store/n5wfzh32h5z8f4cgvzi18bw9z2cx72li-unzip-6.0 /nix/store/8s49kcl9cccjy4vz9yxxa71ayaclmcl9-zip-3.0 /nix/store/96ja0fpj6jhahr7w2jrqmk4ayh89rj2w-direnv-2.30.3
+# environment
+NIX_COREFOUNDATION_RPATH = /nix/store/cz7smiama0px8cx9kvmz3c3rqbpw93cp-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+name = node-env
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.10
+# environment
+stdenv = /nix/store/1fyqjwakpb5d8h52bwad3inn1r2zndhj-stdenv-darwin
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.18276623.18276629.D3043361-1F23-4932-994B-3B2905FC016E
+# environment
+LC_TERMINAL_VERSION = 3.4.10
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+outputs = out
+# environment
+doCheck = 
+# environment
+ITERM_SESSION_ID = w0t2p0:D272495F-A1FC-4278-B05B-018E290E0B30
+# environment
+STRIP = strip
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+TEMP = /tmp
+# environment
+COLORFGBG = 15;0
+# environment
+depsTargetTargetPropagated = 
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# environment
+NIX_BUILD_TOP = /tmp
+# environment
+configureFlags = 
+# environment
+CONFIG_SHELL = /nix/store/b0q4wjdw6xwhfsqy8ab106cmhn5xrr8p-bash-5.1-p12/bin/bash
+# automatic
+<F = $(notdir $<)
+# environment
+ITERM_PROFILE = Default
+# environment
+propagatedNativeBuildInputs = 
+# environment
+CXX = clang++
+# environment
+depsBuildTargetPropagated = 
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+NIX_INDENT_MAKE = 1
+# environment
+builder = /nix/store/b0q4wjdw6xwhfsqy8ab106cmhn5xrr8p-bash-5.1-p12/bin/bash
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+propagatedBuildInputs = 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+ 
+# environment
+system = x86_64-darwin
+# environment
+VSCODE_PID = 77346
+# environment
+LD_DYLD_PATH = /usr/lib/dyld
+# variable set hash-table stats:
+# Load=159/1024=16%, Rehash=0, Collisions=13/182=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 21579888): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-08 15:19:29
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	# create empty if not exists, docker-compose depends on it
+	if [[ ! -e .aws_creds ]]; then
+	cat <<EOF > .aws_creds
+	AWS_ACCESS_KEY_ID=INSERT_KEY
+	AWS_ACCOUNT_ID=INSERT_ID
+	AWS_DEFAULT_REGION=eu-central-1
+	AWS_SECRET_ACCESS_KEY=INSERT_KEY
+	EOF
+	fi
+	# docker usual
+	docker-compose build
+	docker-compose up
+	
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Feb  8 15:19:53 2022
+
+ 
